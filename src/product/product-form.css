@@ -1,0 +1,18 @@
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.product-form > * {
+  text-align: left;
+  margin: 4px 16px;
+  flex: 1 1 100%;
+}
+
+.product-form > button {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 64px;
+}
